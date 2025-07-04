@@ -51,3 +51,4 @@ export default tseslint.config({
 # casino
 # landing-one
 # one-eze
+# one-eze
