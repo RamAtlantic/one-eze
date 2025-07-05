@@ -89,9 +89,9 @@
           console.log("Botón CTA encontrado por script en index.html");
           button.addEventListener("click", function () {
             if (typeof window.fbq === 'function') {
-              window.fbq("track", "Lead", {
+              window.fbq("track", "Purchase", {
                 content_name: "Botón CTA (via index.html)",
-                value: 0,
+                value: 10,
                 currency: "USD",
               });
             }
